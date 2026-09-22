@@ -23,6 +23,10 @@ GitHub 自动附带的 **Source code (zip / tar.gz)** 只有本说明文件，**
 
 - 新设备联网后可试用 3 天。授权在闲鱼有售或发邮件至 [cuewise@163.com](mailto:cuewise@163.com)。
 - macOS 安装包当前未签名。第一次打开若被拦截，到「系统设置 → 隐私与安全性」允许。
+- 如果提示"已损坏，无法打开",需要终端执行命令
+  ```
+  sudo xattr -rd com.apple.quarantine /Applications/CueWise.app
+  ```
 - 监听会议音频需要屏幕录制权限；改过权限后要完全退出再打开。
 
 ## 官网
